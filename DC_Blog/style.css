@@ -1,0 +1,78 @@
+html {
+    background-color: #f4f4f4;
+    color: #4d5558;
+}
+header {
+    padding: 2% 10% 0 10%;
+}
+
+.logoname {
+    display: inline;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topnav {
+    display: inline;
+}
+
+ul.topnav li {
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+header a {
+    text-decoration: none;
+    color: gray;
+}
+
+#main {
+    width: 50%;
+    padding: 0 25% 0 25%;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+}
+#main h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #4d5558;
+}
+.miniheader {
+    text-align: center;
+    color: #bcbcbc;
+}
+button {
+    padding: 5px 20px 5px 20px;
+    background-color: #4b98c2;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 3%;
+}
+
+footer {
+    width: 50%;
+    padding: 0 25% 0 25%;
+}
+
+.bottomnav {
+    display: inline;
+}
+ul.bottomnav li {
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    color: #a0a1a1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a0a1a1;
+}
+#copyright {
+    text-align: center;
+}

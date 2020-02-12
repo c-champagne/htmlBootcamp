@@ -1,0 +1,116 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+#topbox {
+    background-image: url(img/atl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 973px;
+    height: 476px;
+    margin: 0 auto;
+}
+ul.topnav {
+    padding-right: 100px;
+}
+ul.topnav li {
+    list-style-type: none;
+    float: right;
+    font-size: 10px;
+    color: lightgray;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+#logo {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 35%;
+    right: 0;
+    margin: auto;
+}
+
+#topcontent {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#topcontent > h1 {
+    font-size: 55px;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+span {
+    color: lightgray;
+}
+
+
+#main {
+    margin: 0 auto;
+    height: 20%;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+
+}
+
+#main > h1 {                  /*For future tagline*/
+    padding: 30px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 80px;
+}
+
+td {
+    width: 50px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+/*  Abandoned 1st try using divs and IDs.  Used table instead.
+#logos img {
+    padding-right: 30px;
+}
+
+#main h1 {                  /*For Logo Titles
+    display: inline;
+    padding-right: 45px;
+}
+
+#maintext p{                /*For paragraph text
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+} */
+
+footer {
+    background-color: #515151;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+    padding-bottom: 10px;
+    width: 973px;
+    margin: 0 auto;
+}
+
+ul.bottomnav li {
+    color: lightgray;
+    font-size: 14px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 45px;
+    display: inline-block;
+}
