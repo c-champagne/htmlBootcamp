@@ -1,6 +1,10 @@
 html {
     font-family: 'Raleway', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: lightgray
+}
 #topbox {
     background-image: url(img/atl.png);
     background-position: center;
@@ -63,11 +67,11 @@ span {
 
 }
 
-#main > h1 {                  /*For future tagline*/
+#main > h1 {                  /*For future tagline (this was a note to myself, I kept forgetting what it was)*/
     padding: 30px;
 }
 
-table {
+table { 
     margin: 0 auto;
     text-align: center;
     padding-left: 80px;
@@ -79,7 +83,7 @@ td {
     padding-right: 80px;
 }
 
-/*  Abandoned 1st try using divs and IDs.  Used table instead.
+/*  Abandoned 1st try using divs and IDs. Couldn't get everything centered after multiple attempts.  Used table instead.
 #logos img {
     padding-right: 30px;
 }

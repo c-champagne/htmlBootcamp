@@ -9,21 +9,23 @@
         <header>
             <div id="topbox">
                 <ul class="topnav">
-                    <li>CONTACT</li>
-                    <li>FAQ</li>
-                    <li>HOME</li>
+                    <li><a href="#">CONTACT</a></li> <!--Is it redundant to make these both links and list items?  I think I could achieve the same result with just the a tags.-->
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">HOME</a></li>
                 </ul><br/>
                 <img id="logo" src="img/logo.png"/>
                 <div id="topcontent">
                     <h1>DgtlCrfts</h1>
                     <span>Turn-key Solutions for Synergistic,<br/> Distributed Systems</span>
-                <br/><br/><br/><br/><br/><br/><br/><img src="img/down_arrow.png"/>
+                <br/><br/><br/><br/><br/><br/><br/><img src="img/down_arrow.png"/> 
+                <!--I used a bunch of br tags here because I forgot about the arrow until the very end when I thought I was finished and 
+                I was too tired at the time to try centering it in CSS. -->
                 </div>
             </div>
         </header>
         <div id="main">
             <h1>The future of tomorrow is today.</h1>
-            <table>
+            <table> <!--I promise this is the last table you'll see from me. :) -->
                 <tr>
                     <td><img src="img/at.png"/></td>
                     <td><img src="img/hashtag.png"/></td>
@@ -40,7 +42,7 @@
                     <td><p>Once the users arrive, you make money. It's that simple.  We make money land on your doorstep, for realzies.</p></td>
                 </tr>
             </table>
-<!-- Abandoned attempt using divs.  Used table instead.
+<!-- Abandoned attempt using divs. Was having trouble lining them up and getting the whole thing centered. Used table instead.
             <div id="logos">
                 <img src="img/at.png"/>               
                 <img src="img/hashtag.png"/>  
@@ -60,9 +62,9 @@
         </div>
         <footer>
             <ul class="bottomnav">
-                <li>HOME</li>
-                <li>FAQ</li>
-                <li>CONTACT</li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
             <span> © 2017 DigitalCrafts, Inc.</span>
         </footer>

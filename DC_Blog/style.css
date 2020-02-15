@@ -9,7 +9,9 @@ header {
 .logoname {
     display: inline;
     padding-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    /* I found the Raleway font by going to a recent DigitalCrafts blog post and inspecting the page.  
+    It's not exactly the same, but pretty close!*/
 }
 
 .topnav {

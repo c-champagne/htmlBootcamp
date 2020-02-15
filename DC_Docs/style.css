@@ -1,6 +1,10 @@
 html {
     background-color: #f0f0ef;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif; /* Tried to find a font that looked closer to the example and thought this one fit pretty well. */
+}
+
+body {
+    margin: 0; /*Finally remembered to remove the weird margin around the body/entire page! */
 }
 #sidebar {
     background-color: #535353;
@@ -10,6 +14,14 @@ html {
     height: 100%;
     width: 250px;
 
+}
+
+blockquote {
+    background-color: #e6e3de;
+    border-left: gray 2px solid;
+    padding-left: 15px;
+    font-style: italic;
+    color: gray;
 }
 
 #mainpage {
