@@ -11,21 +11,21 @@ body {
     color: white;
     position: fixed;
     float: left;
-    height: 100%;
-    width: 250px;
+    height: 100vw;
+    width: 300px;
 
 }
 
 blockquote {
     background-color: #e6e3de;
-    border-left: gray 2px solid;
+    border-left: gray 5px solid;
     padding-left: 15px;
     font-style: italic;
     color: gray;
 }
 
 #mainpage {
-    margin-left:250px;
+    margin-left:300px;
     padding: 40px 80px 40px 40px;
 }
 
